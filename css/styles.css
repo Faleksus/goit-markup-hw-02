@@ -53,6 +53,14 @@ body {
     color: var(--brand-color);
 }
 
+.contact-link {
+    font-style: normal;
+    font-weight: 500;
+    font-size: 14px;
+    line-height: 1.14;
+    letter-spacing: 0.02em;
+}
+
 .contact-link:hover,
 .contact-link:focus,
 .adress:hover,
@@ -64,7 +72,7 @@ body {
     background-color: var(--background-color);
 }
 
-.banner h1 {
+.banner .banner-h1 {
     font-weight: 900;
     font-size: 44px;
     line-height: 1.36;
@@ -74,13 +82,13 @@ body {
     color: var(--white-color);
 }
 
-.banner button:focus,
-.banner button:hover {
+.banner .button:focus,
+.banner .button:hover {
     background-color: var(--brand-color);
     color: var(--white-color);
 }
 
-.banner button {
+.banner .button {
     width: 216px;
     height: 50px;
     left: 692px;
@@ -102,7 +110,7 @@ body {
     display: none;
 }
 
-.features h3 {
+.features .features-h3 {
     font-weight: 700;
     font-size: 14px;
     line-height: 1.14;
@@ -110,14 +118,14 @@ body {
     text-transform: uppercase;
 }
 
-.features p {
+.features .features-p {
     font-size: 14px;
     line-height: 1.71;
     letter-spacing: 0.03em;
     color: #757575;
 }
 
-.doing h2 {
+.doing .doing-h2 {
     font-weight: 700;
     font-size: 36px;
     line-height: 1.17;
@@ -125,7 +133,7 @@ body {
     letter-spacing: 0.03em;
 }
 
-.team h2 {
+.team .team-h2 {
     font-weight: 700;
     font-size: 36px;
     line-height: 1.17;
@@ -133,7 +141,7 @@ body {
     letter-spacing: 0.03em;
 }
 
-.team h3 {
+.team .team-h3 {
     font-weight: 500;
     font-size: 16px;
     line-height: 1.19;
@@ -141,7 +149,7 @@ body {
     letter-spacing: 0.03em;
 }
 
-.team p {
+.team .team-p {
     font-size: 16px;
     line-height: 1.19;
     text-align: center;
@@ -157,7 +165,7 @@ body {
     display: none;
 }
 
-.filters button {
+.filters .button {
     background-color: #F5F4FA;
     border-radius: 4px;
     width: 125px;
@@ -173,8 +181,8 @@ body {
     border: none;
 }
 
-.filters button:focus,
-.filters button:hover {
+.filters .button:focus,
+.filters .button:hover {
     background-color: var(--brand-color);
     color: var(--white-color);
 }
@@ -183,33 +191,25 @@ body {
     display: none;
 }
 
-.projects h3 {
+.projects .projects-h3 {
     font-weight: 700;
     font-size: 18px;
     line-height: 2;
     letter-spacing: 0.06em;
 }
 
-.projects p {
+.projects .projects-p {
     font-size: 16px;
     line-height: 1.88;
     letter-spacing: 0.03em;
     color: #757575;
 }
 
-.contact-link {
-    font-style: normal;
-    font-weight: 500;
-    font-size: 14px;
-    line-height: 1.14;
-    letter-spacing: 0.02em;
-}
-
-footer .logo {
+.logo-footer {
     color: var(--white-color);
 }
 
-footer .adress {
+.adress-footer {
     color: var(--white-color);
     font-style: normal;
     font-size: 14px;
@@ -217,7 +217,7 @@ footer .adress {
     letter-spacing: 0.03em;
 }
 
-footer .contact-link {
+.contact-link-footer {
     font-size: 14px;
     line-height: 1.71;
     letter-spacing: 0.03em;
