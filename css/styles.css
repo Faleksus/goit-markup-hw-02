@@ -53,6 +53,13 @@ body {
     color: var(--brand-color);
 }
 
+.contact-link:hover,
+.contact-link:focus,
+.adress:hover,
+.adress:focus {
+    color: var(--brand-color);
+}
+
 .banner {
     background-color: var(--background-color);
 }
@@ -215,11 +222,6 @@ footer .contact-link {
     line-height: 1.71;
     letter-spacing: 0.03em;
     color: rgba(255, 255, 255, 0.6);
-}
-
-.contact-link:hover,
-.adress:hover {
-    color: var(--brand-color);
 }
 
 footer {
