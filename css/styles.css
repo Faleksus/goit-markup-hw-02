@@ -157,14 +157,6 @@ body {
     color: #757575;
 }
 
-.portfolio > h2 {
-    display: none;
-}
-
-.filters > h2 {
-    display: none;
-}
-
 .filters .button {
     background-color: #F5F4FA;
     border-radius: 4px;
@@ -187,11 +179,7 @@ body {
     color: var(--white-color);
 }
 
-.projects > h2 {
-    display: none;
-}
-
-.projects .projects-h3 {
+.projects .projects-h2 {
     font-weight: 700;
     font-size: 18px;
     line-height: 2;
