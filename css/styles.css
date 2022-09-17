@@ -72,7 +72,7 @@ body {
     background-color: var(--background-color);
 }
 
-.banner .banner-h1 {
+.banner .banner-title {
     font-weight: 900;
     font-size: 44px;
     line-height: 1.36;
@@ -110,7 +110,7 @@ body {
     display: none;
 }
 
-.features .features-h3 {
+.features .features-list-title {
     font-weight: 700;
     font-size: 14px;
     line-height: 1.14;
@@ -118,14 +118,14 @@ body {
     text-transform: uppercase;
 }
 
-.features .features-p {
+.features .features-list-text {
     font-size: 14px;
     line-height: 1.71;
     letter-spacing: 0.03em;
     color: #757575;
 }
 
-.doing .doing-h2 {
+.doing .doing-title {
     font-weight: 700;
     font-size: 36px;
     line-height: 1.17;
@@ -133,7 +133,7 @@ body {
     letter-spacing: 0.03em;
 }
 
-.team .team-h2 {
+.team .team-title {
     font-weight: 700;
     font-size: 36px;
     line-height: 1.17;
@@ -141,7 +141,7 @@ body {
     letter-spacing: 0.03em;
 }
 
-.team .team-h3 {
+.team .team-list-title {
     font-weight: 500;
     font-size: 16px;
     line-height: 1.19;
@@ -149,7 +149,7 @@ body {
     letter-spacing: 0.03em;
 }
 
-.team .team-p {
+.team .team-list-text {
     font-size: 16px;
     line-height: 1.19;
     text-align: center;
@@ -183,14 +183,14 @@ body {
     color: var(--white-color);
 }
 
-.projects .projects-h2 {
+.projects .projects-title {
     font-weight: 700;
     font-size: 18px;
     line-height: 2;
     letter-spacing: 0.06em;
 }
 
-.projects .projects-p {
+.projects .projects-text {
     font-size: 16px;
     line-height: 1.88;
     letter-spacing: 0.03em;
