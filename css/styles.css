@@ -53,6 +53,10 @@ body {
     color: var(--brand-color);
 }
 
+.menu .active {
+    color: var(--brand-color);
+}
+
 .contact-link {
     font-style: normal;
     font-weight: 500;
